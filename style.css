@@ -43,6 +43,10 @@ body {
     align-items: center;
 }
 
+.header__section.mini {
+    height: 11vh;
+}
+
 .header .logo__header {
     display: flex;
     align-items: center;
@@ -83,6 +87,7 @@ body {
     align-items: center;
     font-size: x-large;
     color: var(--white-black);
+    cursor: pointer;
 }
 
 .header .menu__header a {
